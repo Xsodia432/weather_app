@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@mdi/font/css/materialdesignicons.min.css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/date-fns@3.6.0/cdn.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/date-fns@3.6.0/locale/es/cdn.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/date-fns@3.6.0/locale/ru/cdn.min.js"></script>
+    <script src="./script.js" type="module" defer></script>
+  </head>
+  <body>
+    <div class="container" id="container">
+      <div class="content-container">
+        <div class="weather-content">
+          <div class="search-loc-container">
+            <form id="form-location">
+              <button class="mdi mdi-magnify" type="submit"></button>
+              <input name="loc" placeholder="Search Location" />
+            </form>
+            <span class="mdi mdi-map-marker" id="location-name"> </span>
+          </div>
+
+          <div class="loading-screen">
+            <img src="./loading.webp" />
+          </div>
+          <div class="weather-data-container">
+            <div class="weather-now">
+              <div>
+                <img />
+                <div>
+                  <span> </span>
+                </div>
+              </div>
+              <span></span>
+            </div>
+
+            <div class="weather-upcoming">
+              <div>
+                <span></span>
+                <img />
+                <span></span>
+                <span></span>
+              </div>
+              <div>
+                <span></span>
+                <img />
+                <span></span>
+                <span></span>
+              </div>
+              <div>
+                <span></span>
+                <img />
+                <span></span>
+                <span></span>
+              </div>
+              <div>
+                <span></span>
+                <img />
+                <span></span>
+                <span></span>
+              </div>
+              <div>
+                <span></span>
+                <img />
+                <span></span>
+                <span></span>
+              </div>
+            </div>
+          </div>
+
+          <div class="footer">
+            <span
+              >Icons created by
+              <a href="https://www.flaticon.com">Freepik - Flaticon </a> and
+              <a href="https://pictogrammers.com/">Pictogrammers</a></span
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
